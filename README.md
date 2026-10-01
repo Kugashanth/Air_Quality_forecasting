@@ -198,16 +198,15 @@ The real-data sample is small (271 points), so it is supporting evidence rather 
 ```
 .
 ├── README.md
-├── notebooks/
-│   └── <your_notebook_name>.ipynb      # full pipeline: data, labelling, models, evaluation
+├── Kolkata_AirQuality_Forecasting_Baseline_Enhanced.ipynb                           # full pipeline: data, labelling, models, evaluation
+│        
 ├── data/
+│   └── air_quality
 │   └── cpcb_kolkata.csv                # real CPCB validation data (if you include it)
 ├── figures/                            # exported charts used in the report and slides
-├── report/
-│   └── 22CDS0446_Final_Report.docx
-├── slides/
-│   └── Final_Presentation_22CDS0446.pptx
-└── requirements.txt
+├── results
+│   └── excel_format_files
+└── figures
 ```
 
 ---
